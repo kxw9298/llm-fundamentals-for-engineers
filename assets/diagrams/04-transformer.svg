@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#ffffff"/>
+  <text x="80" y="90" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#1f1f1f">Transformer Layer Stack</text>
+  <rect x="160" y="170" width="1280" height="560" rx="24" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <rect x="320" y="550" width="960" height="80" rx="14" fill="#dff1ff" stroke="#4f8cff" stroke-width="3"/>
+  <rect x="320" y="430" width="960" height="80" rx="14" fill="#e8f7e8" stroke="#4caf50" stroke-width="3"/>
+  <rect x="320" y="310" width="960" height="80" rx="14" fill="#dff1ff" stroke="#4f8cff" stroke-width="3"/>
+  <rect x="320" y="190" width="960" height="80" rx="14" fill="#e8f7e8" stroke="#4caf50" stroke-width="3"/>
+  <text x="800" y="240" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#1f1f1f">Layer N: self-attention + feed-forward + residual</text>
+  <text x="800" y="360" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#1f1f1f">Layer ...</text>
+  <text x="800" y="480" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#1f1f1f">Layer 2</text>
+  <text x="800" y="600" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#1f1f1f">Layer 1</text>
+  <line x1="800" y1="630" x2="800" y2="690" stroke="#6b7280" stroke-width="4"/>
+  <polygon points="800,690 790,674 810,674" fill="#6b7280"/>
+  <text x="840" y="685" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#374151">Updated hidden states</text>
+  <text x="190" y="760" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#374151">Each layer refines the token representations rather than producing the answer in one step.</text>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#ffffff"/>
+  <text x="80" y="90" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#1f1f1f">Inference: Prefill, Decode, KV Cache</text>
+  <rect x="120" y="220" width="500" height="160" rx="20" fill="#dff1ff" stroke="#4f8cff" stroke-width="3"/>
+  <text x="370" y="285" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#1f1f1f">Prefill</text>
+  <text x="370" y="330" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#374151">Process entire prompt</text>
+  <text x="370" y="360" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#374151">Build initial KV cache</text>
+  <line x1="620" y1="300" x2="760" y2="300" stroke="#6b7280" stroke-width="4"/>
+  <polygon points="760,300 744,290 744,310" fill="#6b7280"/>
+  <rect x="800" y="220" width="320" height="160" rx="20" fill="#e8f7e8" stroke="#4caf50" stroke-width="3"/>
+  <text x="960" y="285" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#1f1f1f">Decode</text>
+  <text x="960" y="330" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#374151">Generate one token</text>
+  <text x="960" y="360" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#374151">at a time</text>
+  <path d="M1120 300 C1280 300, 1280 540, 960 540 C720 540, 720 420, 820 420" fill="none" stroke="#94a3b8" stroke-width="4" stroke-dasharray="10 8"/>
+  <polygon points="820,420 836,430 836,410" fill="#94a3b8"/>
+  <rect x="1180" y="220" width="280" height="160" rx="20" fill="#fff2d9" stroke="#f59e0b" stroke-width="3"/>
+  <text x="1320" y="285" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#1f1f1f">KV Cache</text>
+  <text x="1320" y="330" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#374151">Reuse prior keys</text>
+  <text x="1320" y="360" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#374151">and values</text>
+  <text x="120" y="660" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#374151">Prompt: The capital of France is  ->  Prefill  ->  Decode `Paris`  ->  Decode `.`</text>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#ffffff"/>
+  <text x="80" y="90" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#1f1f1f">LLM Fundamentals for Engineers</text>
+  <text x="80" y="130" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#4a4a4a">Journey of a token: from text input to generated output</text>
+  <rect x="80" y="230" width="210" height="110" rx="16" fill="#dff1ff" stroke="#4f8cff" stroke-width="3"/>
+  <rect x="360" y="230" width="210" height="110" rx="16" fill="#e8f7e8" stroke="#4caf50" stroke-width="3"/>
+  <rect x="640" y="230" width="210" height="110" rx="16" fill="#fff2d9" stroke="#f59e0b" stroke-width="3"/>
+  <rect x="920" y="230" width="210" height="110" rx="16" fill="#f4e8ff" stroke="#8b5cf6" stroke-width="3"/>
+  <rect x="1200" y="230" width="210" height="110" rx="16" fill="#ffe5e5" stroke="#ef4444" stroke-width="3"/>
+  <text x="185" y="275" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#1f1f1f">Text</text>
+  <text x="185" y="305" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#4a4a4a">Prompt arrives</text>
+  <text x="465" y="275" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#1f1f1f">Tokens</text>
+  <text x="465" y="305" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#4a4a4a">IDs and vocabulary</text>
+  <text x="745" y="275" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#1f1f1f">Vectors</text>
+  <text x="745" y="305" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#4a4a4a">Embeddings</text>
+  <text x="1025" y="275" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#1f1f1f">Layers</text>
+  <text x="1025" y="305" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#4a4a4a">Transformer stack</text>
+  <text x="1305" y="275" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#1f1f1f">Output</text>
+  <text x="1305" y="305" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#4a4a4a">Next token</text>
+  <line x1="290" y1="285" x2="360" y2="285" stroke="#6b7280" stroke-width="4"/>
+  <polygon points="360,285 344,275 344,295" fill="#6b7280"/>
+  <line x1="570" y1="285" x2="640" y2="285" stroke="#6b7280" stroke-width="4"/>
+  <polygon points="640,285 624,275 624,295" fill="#6b7280"/>
+  <line x1="850" y1="285" x2="920" y2="285" stroke="#6b7280" stroke-width="4"/>
+  <polygon points="920,285 904,275 904,295" fill="#6b7280"/>
+  <line x1="1130" y1="285" x2="1200" y2="285" stroke="#6b7280" stroke-width="4"/>
+  <polygon points="1200,285 1184,275 1184,295" fill="#6b7280"/>
+  <text x="80" y="470" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#1f1f1f">Running example</text>
+  <rect x="80" y="510" width="620" height="90" rx="16" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="110" y="565" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#111827">The capital of France is</text>
+  <text x="80" y="700" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#4a4a4a">Each chapter explains one stage of this path so engineers can build a stable end-to-end mental model.</text>
+</svg>

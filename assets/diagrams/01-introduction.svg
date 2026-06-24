@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#ffffff"/>
+  <text x="80" y="90" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#1f1f1f">Introduction: LLM as Next-Token Predictor</text>
+  <rect x="90" y="240" width="320" height="120" rx="18" fill="#dff1ff" stroke="#4f8cff" stroke-width="3"/>
+  <rect x="640" y="240" width="320" height="120" rx="18" fill="#e8f7e8" stroke="#4caf50" stroke-width="3"/>
+  <rect x="1190" y="240" width="320" height="120" rx="18" fill="#ffe5e5" stroke="#ef4444" stroke-width="3"/>
+  <text x="250" y="285" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#1f1f1f">Prompt</text>
+  <text x="250" y="320" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#4a4a4a">The capital of France is</text>
+  <text x="800" y="285" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#1f1f1f">Model</text>
+  <text x="800" y="320" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#4a4a4a">Parameters + hidden states</text>
+  <text x="1350" y="285" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#1f1f1f">Prediction</text>
+  <text x="1350" y="320" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#4a4a4a">Paris</text>
+  <line x1="410" y1="300" x2="640" y2="300" stroke="#6b7280" stroke-width="4"/>
+  <polygon points="640,300 624,290 624,310" fill="#6b7280"/>
+  <line x1="960" y1="300" x2="1190" y2="300" stroke="#6b7280" stroke-width="4"/>
+  <polygon points="1190,300 1174,290 1174,310" fill="#6b7280"/>
+  <rect x="260" y="500" width="1080" height="180" rx="20" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="300" y="560" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#1f1f1f">Engineering view</text>
+  <text x="300" y="610" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#374151">Input tokens go in. The model computes hidden states. The final state produces scores for possible next tokens.</text>
+  <text x="300" y="650" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#374151">Generation is the repeated application of this same step.</text>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#ffffff"/>
+  <text x="80" y="90" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#1f1f1f">Tokenization</text>
+  <rect x="90" y="180" width="560" height="110" rx="16" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="120" y="245" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#111827">The capital of France is</text>
+  <line x1="650" y1="235" x2="820" y2="235" stroke="#6b7280" stroke-width="4"/>
+  <polygon points="820,235 804,225 804,245" fill="#6b7280"/>
+  <rect x="850" y="150" width="620" height="360" rx="20" fill="#ffffff" stroke="#4f8cff" stroke-width="3"/>
+  <text x="880" y="210" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#1f1f1f">Tokenizer output</text>
+  <rect x="890" y="250" width="150" height="70" rx="12" fill="#dff1ff" stroke="#4f8cff" stroke-width="2"/>
+  <rect x="1060" y="250" width="170" height="70" rx="12" fill="#dff1ff" stroke="#4f8cff" stroke-width="2"/>
+  <rect x="1250" y="250" width="110" height="70" rx="12" fill="#dff1ff" stroke="#4f8cff" stroke-width="2"/>
+  <rect x="890" y="340" width="150" height="70" rx="12" fill="#dff1ff" stroke="#4f8cff" stroke-width="2"/>
+  <rect x="1060" y="340" width="110" height="70" rx="12" fill="#dff1ff" stroke="#4f8cff" stroke-width="2"/>
+  <text x="965" y="294" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#1f1f1f">The</text>
+  <text x="1145" y="294" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#1f1f1f"> capital</text>
+  <text x="1305" y="294" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#1f1f1f"> of</text>
+  <text x="965" y="384" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#1f1f1f"> France</text>
+  <text x="1115" y="384" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#1f1f1f"> is</text>
+  <rect x="90" y="560" width="1380" height="170" rx="20" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="130" y="625" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#1f1f1f">Token IDs</text>
+  <text x="130" y="680" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#374151">[791, 6864, 315, 9822, 374]</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#ffffff"/>
+  <text x="80" y="90" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#1f1f1f">Training Loop</text>
+  <rect x="100" y="260" width="220" height="100" rx="16" fill="#dff1ff" stroke="#4f8cff" stroke-width="3"/>
+  <rect x="400" y="260" width="220" height="100" rx="16" fill="#e8f7e8" stroke="#4caf50" stroke-width="3"/>
+  <rect x="700" y="260" width="220" height="100" rx="16" fill="#fff2d9" stroke="#f59e0b" stroke-width="3"/>
+  <rect x="1000" y="260" width="220" height="100" rx="16" fill="#f4e8ff" stroke="#8b5cf6" stroke-width="3"/>
+  <rect x="1300" y="260" width="220" height="100" rx="16" fill="#ffe5e5" stroke="#ef4444" stroke-width="3"/>
+  <text x="210" y="305" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#1f1f1f">Tokens</text>
+  <text x="510" y="305" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#1f1f1f">Forward pass</text>
+  <text x="810" y="305" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#1f1f1f">Loss</text>
+  <text x="1110" y="305" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#1f1f1f">Backprop</text>
+  <text x="1410" y="305" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#1f1f1f">Update weights</text>
+  <line x1="320" y1="310" x2="400" y2="310" stroke="#6b7280" stroke-width="4"/>
+  <polygon points="400,310 384,300 384,320" fill="#6b7280"/>
+  <line x1="620" y1="310" x2="700" y2="310" stroke="#6b7280" stroke-width="4"/>
+  <polygon points="700,310 684,300 684,320" fill="#6b7280"/>
+  <line x1="920" y1="310" x2="1000" y2="310" stroke="#6b7280" stroke-width="4"/>
+  <polygon points="1000,310 984,300 984,320" fill="#6b7280"/>
+  <line x1="1220" y1="310" x2="1300" y2="310" stroke="#6b7280" stroke-width="4"/>
+  <polygon points="1300,310 1284,300 1284,320" fill="#6b7280"/>
+  <path d="M1410 380 C1410 540, 210 540, 210 380" fill="none" stroke="#94a3b8" stroke-width="4" stroke-dasharray="10 8"/>
+  <polygon points="210,380 220,396 200,396" fill="#94a3b8"/>
+  <text x="620" y="620" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#374151">Repeat across massive datasets until prediction error falls enough to produce useful behavior.</text>
+</svg>

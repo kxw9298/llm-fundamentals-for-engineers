@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#ffffff"/>
+  <text x="80" y="90" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#1f1f1f">End-to-End Token Journey</text>
+  <rect x="70" y="260" width="170" height="90" rx="16" fill="#dff1ff" stroke="#4f8cff" stroke-width="3"/>
+  <rect x="280" y="260" width="170" height="90" rx="16" fill="#e8f7e8" stroke="#4caf50" stroke-width="3"/>
+  <rect x="490" y="260" width="170" height="90" rx="16" fill="#fff2d9" stroke="#f59e0b" stroke-width="3"/>
+  <rect x="700" y="260" width="170" height="90" rx="16" fill="#f4e8ff" stroke="#8b5cf6" stroke-width="3"/>
+  <rect x="910" y="260" width="170" height="90" rx="16" fill="#ffe5e5" stroke="#ef4444" stroke-width="3"/>
+  <rect x="1120" y="260" width="170" height="90" rx="16" fill="#dff1ff" stroke="#4f8cff" stroke-width="3"/>
+  <rect x="1330" y="260" width="170" height="90" rx="16" fill="#e8f7e8" stroke="#4caf50" stroke-width="3"/>
+  <text x="155" y="315" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#1f1f1f">Text</text>
+  <text x="365" y="315" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#1f1f1f">Tokens</text>
+  <text x="575" y="315" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#1f1f1f">Embeddings</text>
+  <text x="785" y="315" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#1f1f1f">Transformer</text>
+  <text x="995" y="315" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#1f1f1f">Training</text>
+  <text x="1205" y="315" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#1f1f1f">Fine-tuning</text>
+  <text x="1415" y="315" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#1f1f1f">Inference</text>
+  <line x1="240" y1="305" x2="280" y2="305" stroke="#6b7280" stroke-width="4"/>
+  <line x1="450" y1="305" x2="490" y2="305" stroke="#6b7280" stroke-width="4"/>
+  <line x1="660" y1="305" x2="700" y2="305" stroke="#6b7280" stroke-width="4"/>
+  <line x1="870" y1="305" x2="910" y2="305" stroke="#6b7280" stroke-width="4"/>
+  <line x1="1080" y1="305" x2="1120" y2="305" stroke="#6b7280" stroke-width="4"/>
+  <line x1="1290" y1="305" x2="1330" y2="305" stroke="#6b7280" stroke-width="4"/>
+  <text x="80" y="520" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#111827">The capital of France is</text>
+  <text x="80" y="600" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#374151">A single sentence is enough to explain the core mechanics of a modern LLM when the chapters are ordered well.</text>
+</svg>

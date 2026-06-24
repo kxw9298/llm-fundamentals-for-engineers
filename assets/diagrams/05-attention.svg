@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#ffffff"/>
+  <text x="80" y="90" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#1f1f1f">Self-Attention at the Current Token</text>
+  <rect x="120" y="280" width="180" height="80" rx="14" fill="#dff1ff" stroke="#4f8cff" stroke-width="3"/>
+  <rect x="340" y="280" width="220" height="80" rx="14" fill="#dff1ff" stroke="#4f8cff" stroke-width="3"/>
+  <rect x="600" y="280" width="140" height="80" rx="14" fill="#dff1ff" stroke="#4f8cff" stroke-width="3"/>
+  <rect x="780" y="280" width="220" height="80" rx="14" fill="#dff1ff" stroke="#4f8cff" stroke-width="3"/>
+  <rect x="1040" y="280" width="140" height="80" rx="14" fill="#ffe5e5" stroke="#ef4444" stroke-width="3"/>
+  <text x="210" y="330" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#1f1f1f">The</text>
+  <text x="450" y="330" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#1f1f1f">capital</text>
+  <text x="670" y="330" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#1f1f1f">of</text>
+  <text x="890" y="330" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#1f1f1f">France</text>
+  <text x="1110" y="330" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#1f1f1f">is</text>
+  <line x1="1110" y1="400" x2="450" y2="470" stroke="#4caf50" stroke-width="5"/>
+  <line x1="1110" y1="400" x2="890" y2="470" stroke="#4caf50" stroke-width="7"/>
+  <line x1="1110" y1="400" x2="670" y2="470" stroke="#f59e0b" stroke-width="4"/>
+  <line x1="1110" y1="400" x2="210" y2="470" stroke="#cbd5e1" stroke-width="3"/>
+  <rect x="420" y="520" width="760" height="170" rx="20" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="460" y="580" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#1f1f1f">Interpretation</text>
+  <text x="460" y="630" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#374151">When predicting after `is`, the model gives more weight to `capital` and `France` than to `The`.</text>
+</svg>
