@@ -559,4 +559,4 @@ Sometimes it is syntactically small, but operationally it can change latency, pr
 
 ## Next Chapter
 
-This chapter closes the core sequence. The next useful step is to revisit earlier chapters and map each concept to your own platform: model choice, serving layer, Kubernetes design, retrieval architecture, guardrails, and observability.
+This chapter closes the core sequence. Next: revisit [Chapter 0 — Introduction](../00-introduction/README.md) or return to the [repository learning path](../../README.md#learning-path).

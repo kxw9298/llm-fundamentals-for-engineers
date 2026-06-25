@@ -457,4 +457,4 @@ In production it is mostly about structure, constraints, and context assembly.
 
 ## Next Chapter
 
-Next: Chapter 19 — Production AI Platform Architecture
+Next: [Chapter 19 — Production AI Platform Architecture](../19-production-ai-platform-architecture/README.md)

@@ -580,4 +580,6 @@ This is the path you should picture when someone says "run inference on a prompt
 
 ## Next Chapter
 
-Now that the inference-time forward pass is clear, the next chapter covers **how foundation models are trained**: data pipelines, loss, backpropagation, optimization, checkpoints, and distributed training.
+Next: [Chapter 8 — Training Foundation Models](../08-training-foundation-models/README.md)
+
+Now that the inference-time forward pass is clear, the next chapter covers how foundation models are trained: data pipelines, loss, backpropagation, optimization, checkpoints, and distributed training.

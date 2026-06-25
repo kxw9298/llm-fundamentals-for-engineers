@@ -445,6 +445,6 @@ Longer context can help, but it also increases memory use, attention cost, and s
 
 ## Next Chapter
 
-Next: **Chapter 3 — Inside a Transformer**
+Next: [Chapter 3 — Inside a Transformer](../03-transformer-architecture/README.md)
 
 Now that tokens contain both semantic meaning and positional information, we are ready to see how a Transformer processes them.

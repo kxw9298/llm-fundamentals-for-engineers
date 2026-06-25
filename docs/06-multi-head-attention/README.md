@@ -490,4 +490,6 @@ flowchart LR
 
 ## Next Chapter
 
-Now that we have all the major building blocks, the next chapter walks one prompt through **an entire Transformer forward pass** from raw text to next-token probabilities.
+Next: [Chapter 7 — One Complete Transformer Forward Pass](../07-one-complete-transformer-forward-pass/README.md)
+
+Now that we have all the major building blocks, the next chapter walks one prompt through an entire Transformer forward pass from raw text to next-token probabilities.

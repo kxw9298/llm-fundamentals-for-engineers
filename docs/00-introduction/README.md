@@ -276,4 +276,4 @@ Bring the whole stack together, from user traffic and gateways down to GPUs, sto
 
 ## Next Chapter
 
-Next: Chapter 1 – Tokens and Embeddings
+Next: [Chapter 1 — From Text to Numbers: Tokens and Embeddings](../01-text-representation/README.md)

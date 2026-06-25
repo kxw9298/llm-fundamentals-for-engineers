@@ -493,4 +493,4 @@ No. It removes redundant recomputation, but cache memory and sequential decoding
 
 ## Next Chapter
 
-Next: Chapter 12 — KV Cache
+Next: [Chapter 12 — KV Cache](../12-kv-cache/README.md)

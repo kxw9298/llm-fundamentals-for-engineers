@@ -596,6 +596,6 @@ Attention handles token-to-token interaction. FFN handles per-token transformati
 
 ## Next Chapter
 
-Next: **Chapter 6 — Multi-Head Attention**
+Next: [Chapter 6 — Multi-Head Attention](../06-multi-head-attention/README.md)
 
 So far we have seen one attention mechanism. Modern Transformers use many attention heads simultaneously, allowing the model to learn different relationships in parallel.

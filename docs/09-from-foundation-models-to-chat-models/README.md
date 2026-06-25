@@ -464,4 +464,4 @@ No. DPO usually complements SFT rather than replacing all supervised tuning.
 
 ## Next Chapter
 
-Next: Chapter 10 — Parameter-Efficient Fine-Tuning
+Next: [Chapter 10 — Parameter-Efficient Fine-Tuning](../10-parameter-efficient-fine-tuning/README.md)

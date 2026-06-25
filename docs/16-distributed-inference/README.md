@@ -497,4 +497,4 @@ No. Large inference clusters depend heavily on NCCL for collectives.
 
 ## Next Chapter
 
-Next: Chapter 17 — LLMs on Kubernetes
+Next: [Chapter 17 — LLMs on Kubernetes](../17-llms-on-kubernetes/README.md)

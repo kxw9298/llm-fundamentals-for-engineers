@@ -414,6 +414,6 @@ It is preprocessing, but it is also part of the model contract. Tokenization and
 
 ## Next Chapter
 
-Next: **Chapter 2 — Positional Encoding**
+Next: [Chapter 2 — Understanding Context with Positional Encoding](../02-positional-encoding/README.md)
 
 Tokens alone have no concept of order. The next chapter explains how Transformers understand sequence order.

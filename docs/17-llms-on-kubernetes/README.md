@@ -448,4 +448,4 @@ Poor autoscaling can increase cost by thrashing large model pods or keeping cold
 
 ## Next Chapter
 
-Next: Chapter 18 — Building AI Applications
+Next: [Chapter 18 — Building AI Applications](../18-building-ai-applications/README.md)

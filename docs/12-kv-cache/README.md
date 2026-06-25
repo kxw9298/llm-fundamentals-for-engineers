@@ -475,4 +475,4 @@ No. Reuse usually depends on exact shared prefixes and engine-specific behavior.
 
 ## Next Chapter
 
-Next: Chapter 13 — Quantization
+Next: [Chapter 13 — Quantization](../13-quantization/README.md)

@@ -426,4 +426,4 @@ Durability and fast placement are different problems. Source of truth storage do
 
 ## Next Chapter
 
-Next: Chapter 16 — Distributed Inference
+Next: [Chapter 16 — Distributed Inference](../16-distributed-inference/README.md)

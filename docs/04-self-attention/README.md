@@ -710,6 +710,6 @@ Attention is a mechanism for routing information. It is a major part of contextu
 
 ## Next Chapter
 
-Next: **Chapter 5 — Feed Forward Networks, Residual Connections, and Layer Normalization**
+Next: [Chapter 5 — Feed Forward Networks, Residual Connections, and Layer Normalization](../05-feed-forward-and-residual/README.md)
 
 Self-attention explains how tokens exchange information. The next chapter covers the rest of the Transformer block: how each token is transformed, how deep stacks stay stable, and how the full block fits together.

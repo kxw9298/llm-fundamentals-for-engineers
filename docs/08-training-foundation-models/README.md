@@ -562,4 +562,6 @@ What should you remember most?
 
 ## Next Chapter
 
-After pretraining comes the question most product teams care about: how to adapt and operate the model. The next chapter should cover **post-training, fine-tuning, alignment, and inference-serving tradeoffs**.
+Next: [Chapter 9 — From Foundation Models to Chat Models](../09-from-foundation-models-to-chat-models/README.md)
+
+After pretraining comes the question most product teams care about: how to adapt a base model into a useful chat assistant through post-training, preference shaping, and alignment.

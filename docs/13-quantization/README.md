@@ -444,4 +444,4 @@ Weights are the most common focus, but activations and KV cache also matter in e
 
 ## Next Chapter
 
-Next: Chapter 14 — Model Serving
+Next: [Chapter 14 — Model Serving](../14-model-serving/README.md)

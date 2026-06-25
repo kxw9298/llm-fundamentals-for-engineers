@@ -415,6 +415,6 @@ Only partly. Prompt processing is highly parallel. Autoregressive generation sti
 
 ## Next Chapter
 
-Next: **Chapter 4 — Self-Attention**
+Next: [Chapter 4 — Self-Attention: The Core of the Transformer](../04-self-attention/README.md)
 
 Now that you have the high-level block structure, the next chapter zooms in on the most famous piece: how self-attention lets tokens decide which other tokens matter.

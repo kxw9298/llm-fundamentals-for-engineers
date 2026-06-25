@@ -480,4 +480,4 @@ Usually no. It changes trainable components and runtime composition, but the bas
 
 ## Next Chapter
 
-Next: Chapter 11 — Inference
+Next: [Chapter 11 — Inference](../11-inference/README.md)
