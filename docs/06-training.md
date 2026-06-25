@@ -1,4 +1,4 @@
-# Training
+# 06 Training
 
 ## Learning Objectives
 

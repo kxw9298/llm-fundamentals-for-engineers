@@ -1,4 +1,4 @@
-# Inference
+# 08 Inference
 
 ## Learning Objectives
 

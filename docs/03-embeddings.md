@@ -1,4 +1,4 @@
-# Embeddings
+# 03 Embeddings
 
 ## Learning Objectives
 

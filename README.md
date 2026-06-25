@@ -1,126 +1,213 @@
 # LLM Fundamentals for Engineers
 
-`llm-fundamentals-for-engineers` is an open-source course for Platform Engineers, Cloud Engineers, Kubernetes Engineers, DevOps Engineers, and Software Engineers who want to understand how large language models work from an engineering point of view.
+`llm-fundamentals-for-engineers` is a practical learning repository for software engineers, platform engineers, DevOps engineers, SREs, cloud engineers, Kubernetes engineers, and infrastructure engineers who want to understand how modern LLM systems work. It explains the path from core model concepts to training, inference, serving, and production operations without assuming an ML background.
 
-This repository is intentionally written like a technical book, not a slide dump and not a research paper. The goal is to help readers follow the journey of a token through an LLM system, from raw text to generated output.
+---
 
-## Who This Course Is For
+## Why this repository?
 
-- Platform Engineers
-- Cloud Engineers
-- Kubernetes Engineers
-- DevOps Engineers
-- Software Engineers
+LLMs are no longer isolated research artifacts. They are becoming part of production systems that engineers must deploy, scale, secure, observe, and troubleshoot.
 
-## Who This Course Is Not For
+If you already understand containers, Kubernetes, APIs, distributed systems, and cloud platforms, you already have much of the systems intuition needed to reason about LLM platforms. What is usually missing is the model-side context: what a token is, why GPUs matter, what happens during inference, why KV cache exists, what fine-tuning changes, and how serving stacks behave under load.
 
-- AI Researchers
-- ML Researchers
-- Data Scientists looking for proof-heavy treatment
+This repository focuses on those gaps.
 
-## Course Philosophy
+The goal is not to turn platform engineers into ML researchers. The goal is to help engineers understand:
 
-- Teach the journey of a token.
-- Reuse one running example across chapters: `The capital of France is`.
-- Prefer engineering intuition over formal proofs.
-- Explain what the system is doing, why it is doing it, and what engineers should care about.
-- Build concepts in sequence so each chapter depends on the previous one.
+- what problem each LLM component solves
+- where it fits in the lifecycle from training to serving
+- what tradeoffs show up in production
+- how model behavior connects to infrastructure decisions
 
-## What Students Will Learn
+---
 
-- Tokenization
+## What you'll learn
+
+### Part 0 — Introduction
+
+- What is an LLM
+- AI ecosystem
+- Why LLMs matter
+
+### Part 1 — LLM Fundamentals
+
+- Tokens
 - Embeddings
-- Transformer architecture
+- Transformer
 - Attention
-- Hidden states
+- Feed Forward Network
+- Positional Encoding
 - Training
-- Forward pass
-- Backpropagation
-- Fine-tuning
-- LoRA
 - Inference
-- Prefill
-- Decode
-- KV cache
 
-## What This Course Does Not Cover
+### Part 2 — Production AI Systems
 
-These topics belong in a later session focused on scaling and production runtime architecture:
+- GPUs
+- Model Storage
+- Serving
+- KV Cache
+- LoRA
+- Quantization
+- Distributed Inference
+- Fine Tuning
+- RAG
+- AI Gateways
+- Guardrails
 
+### Part 3 — LLM on Kubernetes
+
+- Model deployment
 - vLLM
-- Tensor parallelism
-- Pipeline parallelism
+- KServe
+- Triton
 - Ray
-- Kubernetes deployment patterns
 - Multi-GPU
 - Multi-node
-- NCCL
-- Distributed inference
+- Scheduling
+- Autoscaling
+- Monitoring
 
-## Repository Layout
+---
+
+## Repository Structure
 
 ```text
+/
 README.md
-
 docs/
-    00-course-overview.md
-    01-introduction.md
-    02-tokenization.md
-    03-embeddings.md
-    04-transformer.md
-    05-attention.md
-    06-training.md
-    07-fine-tuning.md
-    08-inference.md
-    09-summary.md
-
-assets/
-    diagrams/
-    figures/
-    icons/
-
+  00-introduction/
+    README.md
+  01-text-representation/
+    README.md
+  02-positional-encoding/
+    README.md
+  03-transformer-architecture/
+    README.md
+  04-self-attention/
+    README.md
+  05-feed-forward-and-residual/
+    README.md
+  06-multi-head-attention/
+    README.md
+  07-one-complete-transformer-forward-pass/
+    README.md
+  08-training-foundation-models/
+    README.md
+  09-from-foundation-models-to-chat-models/
+    README.md
+  10-parameter-efficient-fine-tuning/
+    README.md
+  11-inference/
+    README.md
+  12-kv-cache/
+    README.md
+  13-quantization/
+    README.md
+  14-model-serving/
+    README.md
+  15-model-storage/
+    README.md
+  16-distributed-inference/
+    README.md
+  17-llms-on-kubernetes/
+    README.md
+  18-building-ai-applications/
+    README.md
+  19-production-ai-platform-architecture/
+    README.md
 slides/
-
+  README.md
 references/
+  README.md
+assets/
+  diagrams/
+  figures/
+  icons/
 ```
 
-## Reading Order
+---
 
-1. [Course Overview](docs/00-course-overview.md)
-2. [Introduction](docs/01-introduction.md)
-3. [Tokenization](docs/02-tokenization.md)
-4. [Embeddings](docs/03-embeddings.md)
-5. [Transformer](docs/04-transformer.md)
-6. [Attention](docs/05-attention.md)
-7. [Training](docs/06-training.md)
-8. [Fine-Tuning](docs/07-fine-tuning.md)
-9. [Inference](docs/08-inference.md)
-10. [Summary](docs/09-summary.md)
+## Learning Path
 
-## Diagram Standard
+| Chapter | Topic | Estimated Time |
+| --- | --- | --- |
+| 00 | [Introduction to Large Language Models](docs/00-introduction/README.md) | 10 min |
+| 01 | [From Text to Numbers: Tokens and Embeddings](docs/01-text-representation/README.md) | 15 min |
+| 02 | [Understanding Context with Positional Encoding](docs/02-positional-encoding/README.md) | 15 min |
+| 03 | [Inside a Transformer](docs/03-transformer-architecture/README.md) | 12 min |
+| 04 | [Self-Attention: The Core of the Transformer](docs/04-self-attention/README.md) | 20 min |
+| 05 | [Feed Forward Networks, Residual Connections, and Layer Normalization](docs/05-feed-forward-and-residual/README.md) | 18 min |
+| 06 | [Multi-Head Attention](docs/06-multi-head-attention/README.md) | 18 min |
+| 07 | [One Complete Transformer Forward Pass](docs/07-one-complete-transformer-forward-pass/README.md) | 18 min |
+| 08 | [Training Foundation Models](docs/08-training-foundation-models/README.md) | 20 min |
+| 09 | [From Foundation Models to Chat Models](docs/09-from-foundation-models-to-chat-models/README.md) | 18 min |
+| 10 | [Parameter-Efficient Fine-Tuning](docs/10-parameter-efficient-fine-tuning/README.md) | 18 min |
+| 11 | [Inference](docs/11-inference/README.md) | 18 min |
+| 12 | [KV Cache](docs/12-kv-cache/README.md) | 16 min |
+| 13 | [Quantization](docs/13-quantization/README.md) | 16 min |
+| 14 | [Model Serving](docs/14-model-serving/README.md) | 18 min |
+| 15 | [Model Storage](docs/15-model-storage/README.md) | 15 min |
+| 16 | [Distributed Inference](docs/16-distributed-inference/README.md) | 18 min |
+| 17 | [LLMs on Kubernetes](docs/17-llms-on-kubernetes/README.md) | 18 min |
+| 18 | [Building AI Applications](docs/18-building-ai-applications/README.md) | 20 min |
+| 19 | [Production AI Platform Architecture](docs/19-production-ai-platform-architecture/README.md) | 20 min |
 
-All diagrams in `assets/diagrams/` follow the same constraints:
+---
 
-- White background
-- Flat, modern visual style
-- Large readable fonts
-- Minimal clutter
-- 16:9 canvas
-- PowerPoint-friendly SVG format
+## Guiding Principles
 
-## How To Use This Repository
+- Engineering first
+- Visual explanations
+- Minimal math
+- Production focused
+- Kubernetes oriented
+- Cloud native
+- Vendor neutral
 
-- Read the chapters in order.
-- Reuse the SVG diagrams in PowerPoint or internal training material.
-- Extend the `slides/` folder if you want to turn the book into a workshop or talk.
-- Add more examples only if they reinforce the same token journey rather than fragmenting the story.
+---
+
+## Who should read this?
+
+✅ Kubernetes engineers
+
+✅ Platform engineers
+
+✅ DevOps engineers
+
+✅ Software engineers
+
+✅ Cloud architects
+
+✅ Infrastructure engineers
+
+---
+
+## Prerequisites
+
+Readers should already know:
+
+- Linux
+- Docker
+- Kubernetes basics
+- REST APIs
+- Basic networking
+
+No ML experience required.
+
+---
 
 ## Contributing
 
-Contributions should preserve the current teaching style:
+When contributing new material:
 
-- Write in simple English.
-- Explain systems like an engineer teaching another engineer.
-- Avoid unnecessary proof-heavy sections.
-- Prefer one strong running example over many disconnected examples.
-- Keep new diagrams visually consistent with the existing set.
+- Keep diagrams in Mermaid.
+- Prefer concise explanations.
+- One concept per chapter.
+- Keep production focus.
+- Avoid unnecessary mathematics.
+
+---
+
+## References
+
+References will be added as chapters are completed.
