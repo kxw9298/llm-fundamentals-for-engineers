@@ -115,6 +115,16 @@ docs/
     README.md
   19-production-ai-platform-architecture/
     README.md
+  00-course-overview.md          # legacy redirect
+  01-introduction.md            # legacy redirect
+  02-tokenization.md            # legacy redirect
+  03-embeddings.md              # legacy redirect
+  04-transformer.md             # legacy redirect
+  05-attention.md               # legacy redirect
+  06-training.md                # legacy redirect
+  07-fine-tuning.md             # legacy redirect
+  08-inference.md               # legacy redirect
+  09-summary.md                 # legacy redirect
 slides/
   README.md
 references/
@@ -151,6 +161,8 @@ assets/
 | 17 | [LLMs on Kubernetes](docs/17-llms-on-kubernetes/README.md) | 18 min |
 | 18 | [Building AI Applications](docs/18-building-ai-applications/README.md) | 20 min |
 | 19 | [Production AI Platform Architecture](docs/19-production-ai-platform-architecture/README.md) | 20 min |
+
+Note: the older flat files under `docs/*.md` are kept only as compatibility redirects. The canonical course now lives in the nested chapter directories under `docs/*/README.md`.
 
 ---
 
